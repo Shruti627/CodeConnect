@@ -1,0 +1,128 @@
+/* ===========================
+   NAVBAR STYLES
+=========================== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0A1F62; /* Royal Blue */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.nav-links li {
+  font-weight: 500;
+  color: #444;
+  transition: 0.3s;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #1A4BFF; /* Sapphire Blue */
+}
+
+/* Auth buttons */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 500;
+  color: #0A1F62; /* Royal Blue */
+}
+
+.auth-buttons span {
+  font-weight: 600;
+}
+
+/* Login / Register buttons */
+.login-btn,
+.register-btn,
+.auth-buttons button {
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.login-btn {
+  background: #1A4BFF; /* Sapphire Blue */
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(26, 75, 255, 0.25);
+}
+
+.login-btn:hover {
+  background: #0A1F62; /* Royal Blue */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,60,0.35);
+}
+
+.register-btn {
+  background: #F5C542; /* Gold Accent */
+  color: #0A1F62; /* Royal Blue text */
+  box-shadow: 0 3px 10px rgba(245,197,66,0.25);
+}
+
+.register-btn:hover {
+  background: #e6b800; /* Darker Gold */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(200,150,0,0.35);
+}
+
+.auth-buttons button {
+  background: #F5C542; /* Gold Accent */
+  color: #0A1F62; /* Royal Blue */
+}
+
+.auth-buttons button:hover {
+  background: #e6b800;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 30px;
+  }
+  .nav-links {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* you can later add a hamburger menu */
+  }
+  .auth-buttons {
+    gap: 10px;
+  }
+}

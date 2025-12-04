@@ -1,0 +1,87 @@
+.booking-form-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Light bluish gradient background */
+  background: linear-gradient(135deg, #cce7ff, #99d0ff, #66baff);
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* Card styling */
+.booking-form-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.booking-form-card h1 {
+  margin-bottom: 10px;
+  color: #1A4BFF;
+  font-size: 32px;
+}
+
+.booking-form-card p {
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Input fields styling */
+.booking-form-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.booking-form-card input:focus {
+  border-color: #1A4BFF;
+  box-shadow: 0 0 8px rgba(26, 75, 255, 0.3);
+  outline: none;
+}
+
+/* Submit button */
+.booking-form-card button {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1A4BFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.booking-form-card button:hover {
+  background-color: #1639d6;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .booking-form-card {
+    padding: 30px 20px;
+  }
+  
+  .booking-form-card h1 {
+    font-size: 28px;
+  }
+  
+  .booking-form-card p {
+    font-size: 14px;
+  }
+}
