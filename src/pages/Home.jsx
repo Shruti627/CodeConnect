@@ -7,7 +7,7 @@ import googleLogo from "../assets/companies/google.png";
 import microsoftLogo from "../assets/companies/microsoft.jpg";
 import facebookLogo from "../assets/companies/facebook.jpg";
 import amazonLogo from "../assets/companies/amazon.jpg";
-import ibmLogo from "../assets/companies/ibm.jpg";
+// import ibmLogo from "../assets/companies/ibm.jpg";
 import appleLogo from "../assets/companies/apple.jpg";
 import oracleLogo from "../assets/companies/oracle.jpg";
 
@@ -382,7 +382,7 @@ export default function Home() {
             <img src={microsoftLogo} alt="Microsoft" />
             <img src={facebookLogo} alt="Facebook" />
             <img src={amazonLogo} alt="Amazon" />
-            <img src={ibmLogo} alt="IBM" />
+            {/* <img src={ibmLogo} alt="IBM" /> */}
             <img src={appleLogo} alt="Apple" />
             <img src={oracleLogo} alt="Oracle" />
             <img src={googleLogo} alt="Google" />
