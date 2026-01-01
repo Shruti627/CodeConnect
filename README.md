@@ -12,7 +12,7 @@ This platform provides **specialized courses**, showcases **top-performing stude
 
 Built with **React.js**, CodeConnect bridges the gap between **learning** and **industry requirements**, offering courses in:
 
-- 💻 Full-Stack Development (Java, Python, MERN/MEAN)  
+- 💻 Full-Stack Development (Java, Python, MERN/MEAN, NET)  
 - 📱 Mobile App Development (Android & iOS)  
 - ☁️ Cloud & DevOps (AWS, Docker, Kubernetes)  
 - 🤖 AI & Gen AI (LLMs, LangChain, RAG)  
